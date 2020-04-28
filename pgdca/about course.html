@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About PGDCA Course</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha256-JtQPj/3xub8oapVMaIijPNoM0DHoAtgh/gwFYuN5rik=" crossorigin="anonymous"></script>
+</head>
+<body>
+<style>
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  
+  #panel{
+    display: none;
+    height:1100px;
+    width: 100%;
+    background-color:;
+    margin: 8px 20px;
+    color: black;
+    text-align:left;
+    font-size: 20px;
+    padding: 0px;
+
+  }
+.img-jumbo{
+           background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('pgdca.jpg');
+      background-size:cover;
+      background-attachment: fixed;
+      
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1 class="text-center bg-info"style="color:white;">Post Graduate Diploma in Computer Applications (PGDCA)</h1>
+<br>
+<h4 class="display-5"style="color:green;">ELIGIBILITY</h4>
+<p class="mt-3">Any graduate from the recognized university or its equivalent with at least 50% marks (45% in case of SC/ST candidates)</p>
+
+<h4 class="display-5 mt-5" style="color:green;">Age Limit for Admission</h4>
+<p class="mt-3"style="color:blue;">The Upper age limit for Post Graduate Courses is 26 Years for boys and 28 Years of girls and 29 Years in case SC/ST candidates (both for boys and girls) as on 1st july of the concerned year.</p>
+
+<p class="text-justify">Himachal Pradesh University has adopted the age relaxation upto a maximum of 5 Years to persons with disabilities in admission to various courses vide UGC letter no.6-1/2002 (CPPII) Vol. III dated July,2006 received from the Academic Branch vide office letter No.4-16/93-HPU(Acad)Vol-iv Dated 24th September,2006</p>
+
+</div>
+<div class="container">
+<button class="btn btn-primary btn-block btn-lg" id="slide">Checklist for Admission to PGDCA click here..</button>
+<h2 id="panel" style="color:blue;">
+  01 Admission form duly filled
+  <br>
+  <br>
+  02 Acknowledgment Card duly filled
+  <br>
+  <br>
+
+  03 I-D card duly filled
+  <br>
+  <br>
+  04 Matric Certificate (2 copies)
+  <br>
+  <br>
+  05 +2 Certificate (2 copies)
+  <br>
+  <br>
+  06 1 Passport size & 1 stamp size photograph of student
+  <br>
+  <br>
+  07 Graduation Certificate
+  <br>
+  <br>
+  08 Grade Card (of all semester)
+  <br>
+  <br>
+  09 Bonafide Himachali Certificate (For girls students only)
+  <br>
+  <br>
+  10 Copy of Aadhar Card
+  <br>
+  <br>
+  11 For obtaining Catrgory benefit,SC/ST/OBC/Physically Disabled proper certificate from a competent authority must be enclosed at the time of admission.
+  <br>
+  <br>
+  12 Original Migration Certificate in case the student has passed eligibility exam from a university other than H.P.U Shimla
+  <br><br>
+  13 Photocopy of university registration card (if already registered with Himachal Pradesh University)
+
+</h2>
+<br>
+
+
+<a href="pgdca fee.html" target="_blank"class="btn btn-outline-success btn-block btn-lg">Fee Structure</a>
+</div>
+<br>
+<br>
+
+<!--counter-->
+
+<div class="container">
+  <div class="jumbotron img-jumbo">
+<div class="container">
+  <div class="row"style="margin:px px;">
+<div class="col-lg col-sm-4">
+  <h1 class="text-center" style="color:white;font-weight: 600;">PGDCA Total Students (2018-19)</h1>
+  <h2 class="count"style="text-align: center;color:white;font-weight: 700;">27</h2>
+</div>  
+
+</div>
+</div>
+
+<script>
+  
+$(document).ready(function(){
+ // $('#slide').click(function(){
+ //   $('#panel').slideDown('slow');
+ // });
+
+ // $('#slide').dblclick(function(){
+ //   $('#panel').slideUp('slow');
+ // });
+
+ $('#slide').click(function(){
+    $('#panel').slideToggle('slow');
+
+  });
+
+});
+
+$('.count').counterUp({
+    delay: 10,
+    time: 2000
+});
+
+
+</script>
+
+</body>
+</html>

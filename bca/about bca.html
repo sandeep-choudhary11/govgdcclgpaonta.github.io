@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BCA</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha256-JtQPj/3xub8oapVMaIijPNoM0DHoAtgh/gwFYuN5rik=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<style>
+		*{
+			padding: 0px;
+			margin: 0px;
+			box-sizing: border-box;
+		}
+				
+		p,h1,h3,h5{
+			font-weight: 900;
+		}
+
+	#panel{
+    display: none;
+    height:980px;
+    width: 100%;
+    background-color:;
+    margin: 8px 20px;
+    color: black;
+    text-align:left;
+    font-size: 20px;
+    padding: 0px;
+
+  }
+
+  .img-jumbo{
+	         background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('computer-2381149_1920.jpg');
+ 			background-size:cover;
+ 			background-attachment: fixed;
+ 			
+}
+	</style>
+	<div class="container">
+<marquee behaviour="alternate" scroll="left" class="bg-info" style="font-size: 25px;color:white;">Bachelor of Computer Applications (BCA)</marquee>
+<br>
+<h2 style="color:green;" class="display-5">ABOUT THE COURSE</h2>
+<p style="font-weight: 700;">Bachelor of computer application (BCA) is three years under graduate course spread over six semesters under self-financing scheme.</p>
+
+<h1 style="color:green;"class="display-5">Eligibility</h1>
+<p style="font-weight:700;">Candidates who have passed 10+2 examination from h.p.Board/CBCS/ICSE or any other examination considered equivalent to 10+2,by the himachal pradesh university,shimla -05, with 40% marks (35% marks for SC/ST category),shall be eligible.</p>
+
+<p>Maximum age limit for admission to BCA course is 21 years for general category and 24 years for SC/ST category and 23 years for girl candidates</p>
+<br>
+
+<button class=" btn btn-info btn-block btn-lg" id="slide">Checklist for admission to BCA 1st semester Click Here..</button>
+<h2 id="panel" style="color:blue; font-size: 20px;">
+1. Admission from duly filled
+<br>
+<br>
+2. Acknowledgement card duly filled
+<br>
+<br>
+3. I-D card duly filled
+<br>
+<br>
+4. Matric certificate (2 copies)
+<br>
+<br>
+5. +2 certificate (2 copies)
+<br>
+<br>
+6. Original migration certificate if the student has passed XII from a board other then H.P. board of the school eduction, Dharmshala.
+<br>
+<br>
+7. 1 passport size & 1 stamp size photograph of student
+<br>
+<br>
+8. Original character certificate issued by the school
+<br>
+<br>
+9. If +2, is passed as a private candidate, charecter certificate obtained from a gazetted officer/panchyat pradhan/municipal coucillor will be valid.if should not be more then 6 months old
+<br>
+<br>
+10. For obtaining category benefit,SC/ST/OBC/physically disebled certificate from a competent authority must be enclosed at the time of the admission
+<br>
+<br>
+11. Affadavit/undertaking for gap year
+<br>
+<br>
+12. Bonafide Himachali certificate?(for girl student only)
+<br>
+<br>
+13. copy of the adhaar card
+
+</h2>
+<br>
+
+
+
+	<a href="bca fee.html" class="btn btn-outline-primary btn-block" target="_blank"> Fee Structure Click Here..</a>
+</div>
+
+<br>
+<br>
+	<!--counter-->
+
+<div class="container">
+	<div class="jumbotron img-jumbo">
+<div class="container">
+	<div class="row"style="margin:px px;">
+<div class="col-lg col-sm-4">
+	<h1 class="text-center" style="color:white;font-weight: 600;">BCA Total Students (2018-19)</h1>
+	<h2 class="count"style="text-align: center;color:white;font-weight: 700;">68</h2>
+</div>	
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+<script>
+  
+$(document).ready(function(){
+ // $('#slide').click(function(){
+ //   $('#panel').slideDown('slow');
+ // });
+
+ // $('#slide').dblclick(function(){
+ //   $('#panel').slideUp('slow');
+ // });
+
+ $('#slide').click(function(){
+    $('#panel').slideToggle('slow');
+
+  });
+
+});
+
+$('.count').counterUp({
+    delay: 10,
+    time: 2000
+});
+
+</script>
+</body>
+</html>

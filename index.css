@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.dropdown:hover>.dropdown-menu{
+	display: block;
+	
+
+}
+
+
+
+
+body{
+      
+}
+
+.about{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('IMG_20190715_133437.jpg');
+	background-attachment: fixed;
+	height: 660px;
+	background-size: cover;
+	margin: 50px;
+}
+.dropdown-menu:hover{
+	background-color: white;
+}
+
+li:hover{
+	background-color:#06838a;
+
+
+}
+
+
+
+
+.splector{
+	width:900px;
+	height:80px;
+	max-width: 100%;
+	background-color: #FFFFFF;
+	vertical-align: middle;
+	text-align: -webkit-center;
+
+
+}
+.vice-principal{
+	width:1170px;
+	height:600.453px;
+	padding: 0 15px 0 15px;
+	position: relative;
+	min-height: 1px;
+	display: block;
+	box-sizing: border-box;
+	outline: rgb(255,0,0)dashed 1px;
+	background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+.img-jumbo{
+	         background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('ballpen-blur-close-up-461077.jpg');
+ 			background-size:cover;
+ 			background-attachment: fixed;
+}
+
+.footer_style{
+	background-color:#0a0b14;
+		color:white;
+		
+	
+}
+
+.event{
+	width: 365px;
+	height: 265px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	box-sizing: border-box;
+	border-radius: 10px;
+	background-color: wheat;
+
+}
+
+.mr{
+	border-radius: 10px;
+	border-top: 1px solid green;
+	border-left: 1px solid green;
+	border-right: 1px solid green;
+	box-sizing: border-box;
+}
+
